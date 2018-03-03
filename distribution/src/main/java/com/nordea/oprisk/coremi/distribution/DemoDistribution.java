@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@SpringBootApplication(scanBasePackages = "coremi")
+@SpringBootApplication(scanBasePackages = "com.nordea.oprisk.coremi")
 @RestController
 public class DemoDistribution {
 
